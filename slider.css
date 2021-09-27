@@ -2,7 +2,7 @@
     /* position: absolute; */
     background-color: gray;
     height: 43vh;
-    animation: animate 12s ease-in infinite;
+    animation: animate 12s ease-in-out infinite;
     overflow: hidden;
     /* object-fit: fill; */
 }
