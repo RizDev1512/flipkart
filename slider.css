@@ -1,0 +1,27 @@
+.slider {
+    /* position: absolute; */
+    background-color: gray;
+    height: 43vh;
+    animation: animate 12s ease-in infinite;
+    overflow: hidden;
+    /* object-fit: fill; */
+}
+
+@keyframes animate {
+    0%,
+    100% {
+        background-image: url(/slider\ \(2\).png);
+    }
+    20% {
+        background-image: url(/slider3.png);
+    }
+    35% {
+        background-image: url(/slider4.png);
+    }
+    50% {
+        background-image: url(/Screenshot\ \(12\).png);
+    }
+    75% {
+        background-image: url(/slider5.png);
+    }
+}
