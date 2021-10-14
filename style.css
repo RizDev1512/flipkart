@@ -196,11 +196,15 @@ hr {
 .card-item-2 img:hover {
     cursor: pointer;
 }
+.card-item img {
+    
+   transition: 0.3s;
+}
 
 .card-item img:hover {
-    height: 170px;
-    width: 170px;
+    
     cursor: pointer;
+    transform:scale(1.1);
 }
 
 .card {
